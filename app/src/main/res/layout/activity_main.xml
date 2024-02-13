@@ -13,9 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/question_australia"/>
-<!--        android:text="Canberra is the capital of Australia" -->
-        />
+        android:text="Canberra is the Capital of Australia."/>
+
 
 
     <LinearLayout
@@ -38,16 +37,6 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/previous_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/previous_button"
-            app:icon="@drawable/baseline_arrow_left_24" />
 
         <Button
             android:id="@+id/next_button"
@@ -55,8 +44,8 @@
             android:layout_height="wrap_content"
             android:text="@string/next_button"
             app:icon="@drawable/baseline_arrow_right_24"
-            app:iconGravity="end" />
-    </LinearLayout>
+            app:iconGravity="end"
+        />
 
 
 </LinearLayout>
