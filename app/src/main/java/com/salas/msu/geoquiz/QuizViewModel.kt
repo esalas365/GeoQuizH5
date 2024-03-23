@@ -1,10 +1,11 @@
 package com.salas.msu.geoquiz
 
-import android.nfc.Tag
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.SavedStateHandle
-private const val tag = "QuizViewModel"
+import java.lang.Exception
+
+private const val TAG = "QuizViewModel"
 const val CURRENT_INDEX_KEY = "CURRENT_INDEX_KEY"
 class QuizViewModel(private val savedStateHandle:SavedStateHandle):ViewModel() {
 
