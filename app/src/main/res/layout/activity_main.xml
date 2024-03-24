@@ -36,16 +36,21 @@
             android:text="False" />
 
     </LinearLayout>
+    <Button
+    android:id="@+id/cheat_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:text="Cheat!" />
 
 
-        <Button
-            android:id="@+id/next_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/next_button"
-            app:icon="@drawable/baseline_arrow_right_24"
-            app:iconGravity="end"
-        />
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        app:icon="@drawable/baseline_arrow_right_24"
+        app:iconGravity="end" />
 
 
 </LinearLayout>
